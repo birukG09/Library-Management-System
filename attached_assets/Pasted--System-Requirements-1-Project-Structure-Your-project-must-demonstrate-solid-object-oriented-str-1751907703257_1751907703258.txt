@@ -1,0 +1,90 @@
+ System Requirements
+1. Project Structure
+ Your project must demonstrate solid object-oriented structure and separation of concerns.
+ Component Minimum Requirement
+ Java Classes 8+ classes, logically organized into packages
+ Interfaces At least 2, used appropriately to define behaviors
+ Abstract Classes At least 1, to demonstrate partial abstraction
+ Inheritance At least one proper inheritance chain (2+ classes)
+ Polymorphism Both overloading and overriding must be demonstrated
+ Exception
+ Handling Use of custom exceptions and try-catch-finally blocks
+ Collections Use of at least 2 collection types (List, Set, Map)
+ JDBC Integration At least 2 database tables, with insert, update, delete, query
+ operations
+ File I/O Read/write from files (used for logs, config, or backups)
+ 2. OOP Design Expectations
+ Encapsulation: All fields should be private, with appropriate getters/setters.
+ Abstraction: Use abstract classes/interfaces to separate general and specific behaviors.
+ Inheritance: Create a hierarchy where base classes define general behavior.
+ Polymorphism: Demonstrate method overriding and overloading.
+ 3. Interface Options
+ You may choose one of the following interface styles:
+ A. CLI (Command Line Interface)
+ Must be menu-driven and user-friendly.
+Provide clear instructions and input prompts.
+ Support input validation and exception handling.
+ B. GUI (Swing)
+ Built using Java Swing components (
+ JFrame , 
+JPanel , 
+Must contain at least 4 interactive windows (forms).
+ Consistent layout and proper event handling.
+ JButton , 
+JTable , etc.).
+ No visual design will be graded, but usability will be considered.
+ 4. Database Requirements (JDBC)
+ Use MySQL, PostgreSQL, or SQLite.
+ Application must:
+ Connect to the database using JDBC
+ Perform CRUD operations
+ Use PreparedStatement for queries (not Statement)
+ Implementing a DAO pattern (Data Access Object) to separate persistence logic would be
+ appreciated
+ 5. File I/O Requirements
+ Log application activities or export reports into text files.
+ Read configuration from a file (e.g., database credentials).
+ At least one use of:
+ BufferedReader/Writer(recommended)
+ FileReader/Writer
+ Technical Breakdown
+Sample Class Structure
+ project/ 
+│ 
+├── model/               
+│   
+│   
+├── User.java 
+# POJO classes 
+└── Admin.java (extends User) 
+│ 
+├── interfaces/ 
+│   
+└── ReportGenerator.java 
+│ 
+├── abstract/ 
+│   
+└── Account.java (abstract class) 
+│ 
+├── dao/                 
+│   
+│   
+├── UserDAO.java 
+└── ProductDAO.java 
+│ 
+├── service/             
+│   
+│   
+├── UserService.java 
+# Database access layer 
+# Business logic 
+└── ReportService.java 
+│ 
+├── ui/                  
+│   
+│   
+├── MainMenu.java 
+└── SwingMain.java 
+│ 
+└── util/                
+└── FileLogger.java
