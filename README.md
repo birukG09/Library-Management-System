@@ -43,7 +43,7 @@ LibraryManagementSystem/
 │ └── ui/ # LibraryApp.java, Menu.java
 │
 ├── resources/
-│ └── library.db # SQLite DB file (created automatically)
+│ └── library.db # SQLite DB file (created automatically
 │
 ├── README.md
 └── LICENSE
