@@ -1,0 +1,39 @@
+
+│ 
+├── model/               
+│   
+│   
+├── User.java 
+# POJO classes 
+└── Admin.java (extends User) 
+│ 
+├── interfaces/ 
+│   
+└── ReportGenerator.java 
+│ 
+├── abstract/ 
+│   
+└── Account.java (abstract class) 
+│ 
+├── dao/                 
+│   
+│   
+├── UserDAO.java 
+└── ProductDAO.java 
+│ 
+├── service/             
+│   
+│   
+├── UserService.java 
+# Database access layer 
+# Business logic 
+└── ReportService.java 
+│ 
+├── ui/                  
+│   
+│   
+├── MainMenu.java 
+└── SwingMain.java 
+│ 
+└── util/                
+└── FileLogger.java
