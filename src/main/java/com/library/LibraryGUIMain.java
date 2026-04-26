@@ -7,16 +7,14 @@ import com.library.exception.DatabaseException;
 import javax.swing.SwingUtilities;
 import javax.swing.JOptionPane;
 
-/**
- * Main entry point for the GUI version of the Library Management System
- */
+
 public class LibraryGUIMain {
     public static void main(String[] args) {
         try {
-            // Initialize database
+            
             DatabaseConnection.getInstance().initializeDatabase();
             
-            // Start GUI on Event Dispatch Thread
+            
             SwingUtilities.invokeLater(() -> {
                 new LibraryGUI().setVisible(true);
             });
