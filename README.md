@@ -15,7 +15,7 @@ A feature-rich, modular, and Object-Oriented Library Management System built in 
 - Register, update, and delete members  
 - View member borrowing history  
 
-### ⏳ Borrowing & Returning System
+### Borrowing & Returning System
 - Borrow and return books  
 - Automatically sets borrow and return dates  
 - Prevents borrowing of already borrowed books  
