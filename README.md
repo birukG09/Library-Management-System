@@ -35,7 +35,7 @@ A feature-rich, modular, and Object-Oriented Library Management System built in 
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 | Component       | Technology                 |
 |-----------------|----------------------------|
