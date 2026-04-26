@@ -5,10 +5,7 @@ import com.library.util.DatabaseConnection;
 import com.library.util.FileLogger;
 import com.library.exception.DatabaseException;
 
-/**
- * Main entry point for the Library Management System
- * Initializes the database and starts the CLI interface
- */
+
 public class LibraryManagementSystem {
     private static final FileLogger logger = FileLogger.getInstance();
     
@@ -16,11 +13,10 @@ public class LibraryManagementSystem {
         logger.log("INFO", "Library Management System starting...");
         
         try {
-            // Initialize database
+            
             DatabaseConnection.getInstance().initializeDatabase();
             logger.log("INFO", "Database initialized successfully");
             
-            // Start the main menu
             MainMenu mainMenu = new MainMenu();
             mainMenu.displayMenu();
             
