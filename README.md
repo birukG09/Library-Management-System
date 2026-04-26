@@ -1,17 +1,17 @@
-# 📚 Java Library Management System (OOP + SQLite)
+#  Java Library Management System (OOP + SQLite)
 
 A feature-rich, modular, and Object-Oriented Library Management System built in Java with full SQLite database integration. This application helps manage books, members, and borrowing records in a simple and efficient way — ideal for schools, colleges, or personal libraries.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 📗 Book Management
+###  Book Management
 - Add, update, delete, and search books  
 - Auto-generate unique book IDs  
 - Track book availability  
 
-### 👥 Member Management
+### Member Management
 - Register, update, and delete members  
 - View member borrowing history  
 
@@ -20,17 +20,17 @@ A feature-rich, modular, and Object-Oriented Library Management System built in 
 - Automatically sets borrow and return dates  
 - Prevents borrowing of already borrowed books  
 
-### 🔐 Secure & Persistent
+###  Secure & Persistent
 - Uses SQLite for persistent local storage  
 - Data is safely stored in `library.db`  
 
-### 💻 Clean OOP Design
+###  Clean OOP Design
 - Follows SOLID principles  
 - Structured into model, DAO, service, and UI layers  
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 
 ---
@@ -48,7 +48,7 @@ A feature-rich, modular, and Object-Oriented Library Management System built in 
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 User (Console)  
 ↓  
@@ -62,9 +62,9 @@ Database (`library.db`)
 
 ---
 
-## 🧪 Getting Started
+##  Getting Started
 
-### ✅ Prerequisites
+###  Prerequisites
 
 - Java JDK 8 or above  
 - Any Java IDE (IntelliJ, Eclipse, etc.) or command-line tools
