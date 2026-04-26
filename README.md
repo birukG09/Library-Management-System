@@ -32,21 +32,7 @@ A feature-rich, modular, and Object-Oriented Library Management System built in 
 
 ## 📁 Project Structure
 
-LibraryManagementSystem/
-│
-├── src/
-│ └── com/library/
-│ ├── model/ # Book.java, Member.java, BorrowRecord.java
-│ ├── dao/ # BookDAO.java, MemberDAO.java, BorrowDAO.java
-│ ├── service/ # BookService.java, MemberService.java, BorrowService.java
-│ ├── util/ # SQLiteConnection.java, ConsoleHelper.java
-│ └── ui/ # LibraryApp.java, Menu.java
-│
-├── resources/
-│ └── library.db # SQLite DB file (created automatically
-│
-├── README.md
-└── LICENSE
+
 ---
 
 ## ⚙️ Technologies Used
